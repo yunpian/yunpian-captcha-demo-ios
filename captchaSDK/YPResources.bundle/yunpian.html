@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-touch-fullscreen" content="YES">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta charset="UTF-8">
+</head>
+<body style="word-break:break-all;margin: 0;padding: 0;">
+  <div id="cbox"></div>
+  <!--依赖-->
+  <script src="hybird.js"></script>
+  <script src="riddler-sdk.js"></script>
+  <script type="text/javascript">
+      function startVerify (config) {
+      // 初始化
+      new YpRiddler({
+        expired: config.expired,
+        mode: 'flat',
+        winWidth: config.winWidth,
+        lang: config.lang, // 界面语言, 目前支持: 中文简体 zh-cn, 英语 en
+        langPack: config.langPack, // 你可以通过该参数自定义语言包, 其优先级高于lang
+        nativeInfo: config.nativeInfo, // native端设备信息
+        container: document.getElementById('cbox'),
+        appId: config.appId,
+        version: 'v1',
+        onError: function (param) {
+          YPHybirdBridge.callNativeFunction('onError', param)
+          if (param.code === 429) {
+            alert('请求过于频繁，请稍后再试！')
+            return
+          }
+          // 异常回调
+          console.error('验证服务异常')
+        },
+        onSuccess: function (validInfo, close) {
+          YPHybirdBridge.callNativeFunction('onSuccess', validInfo)
+          // 成功回调
+          alert('验证通过!token=' + validInfo.token + ', authenticate=' + validInfo.authenticate)
+          close()
+        },
+        onFail: function (code, msg, retry) {
+          YPHybirdBridge.callNativeFunction('onFail', {
+            code: code,
+            msg: msg
+          })
+          // 失败回调
+          alert('出错啦：' + msg + ' code: ' + code)
+          retry()
+        },
+        beforeStart: function (next) {
+          console.log('验证马上开始')
+          next()
+        },
+        afterStart: function () {
+          YPHybirdBridge.callNativeFunction('afterStart', {})
+        },
+        onExit: function () {
+          // 退出验证 （仅限dialog模式有效）
+          console.log('退出验证')
+        }
+      })
+    }
+      window.onload = function () {
+        YPHybirdBridge.callNativeFunction('startVerify', function (config) {
+          startVerify(config)
+        })
+      }
+  </script>
+</body>
+</html>

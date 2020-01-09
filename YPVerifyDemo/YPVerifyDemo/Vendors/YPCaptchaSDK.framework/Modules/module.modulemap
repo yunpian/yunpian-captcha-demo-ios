@@ -1,0 +1,6 @@
+framework module YPCaptchaSDK {
+  umbrella header "YPCaptchaSDK.h"
+
+  export *
+  module * { export * }
+}
