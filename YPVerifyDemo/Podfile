@@ -1,0 +1,9 @@
+
+target 'YPVerifyDemo' do
+	platform :ios, "8.0"
+    pod 'Bugly'
+    pod 'IQKeyboardManager'
+end
+
+
+
