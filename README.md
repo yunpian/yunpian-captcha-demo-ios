@@ -1,8 +1,14 @@
 # 云片行为验证 iOS Demo
 ***
-## 手动导入SDK
-将SDK文件下的YPCaptchaSDK.framework、YPResources.bundle添加到工程中；
+提示：支持IOS版本8.0以上。
 
+## 手动导入SDK
+将YPCaptcha文件夹下的YPCaptchaSDK.framework、YPResources.bundle添加到工程中；
+
+## pod方式添加SDK
+```
+pod 'YPCaptcha','~> 1.0.3'
+```
 ***
 ## API使用说明
 1. 初始化
@@ -19,7 +25,7 @@
 
 2. 行为验证
 
-  ```Objc
+ ```Objc
 /**
  行为验证
  
@@ -31,6 +37,14 @@
 + (void)verfiy:(YPConfigModel *)configModel onLoaded:(YPCallback)loaded onSuccess:(YPCallbackWithDic)success onFail:(YPCallbackWithDic)fail;
 ```
 
+3. 获取版本号
 
+ ```Objc
+/**
+ 获取 SDK 版本号
 
+ @return 版本号
+ */
++ (NSString *)getSDKVersion;
+```
 
