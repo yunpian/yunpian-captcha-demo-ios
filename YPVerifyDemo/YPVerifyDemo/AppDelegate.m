@@ -24,8 +24,9 @@
     BuglyConfig *config = [BuglyConfig new];
     config.consolelogEnable = YES;
     config.debugMode = YES;
-    [Bugly startWithAppId:@"6c37fe248b" developmentDevice:YES config:config];
-    [YPCaptchaSDK startWithCaptchaId:kYPAppId];
+//    [Bugly startWithAppId:@"6c37fe248b" developmentDevice:YES config:config];
+    //无感验证 0b98f20a6cb24ec0909433f938006d5b
+    [YPCaptchaSDK startWithCaptchaId:@"0b98f20a6cb24ec0909433f938006d5b"];
     return YES;
 }
 
