@@ -61,7 +61,7 @@
 		AE087A3322952B980060D4ED /* libGTCommonSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGTCommonSDK.a; sourceTree = "<group>"; };
 		AE087A3422952B980060D4ED /* GTCountSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTCountSDK.h; sourceTree = "<group>"; };
 		AE087A3522952B980060D4ED /* libGTCountSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGTCountSDK.a; sourceTree = "<group>"; };
-		AE308331226D577400BD3F1D /* YPVerifyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPVerifyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE308331226D577400BD3F1D /* 云片行为认证.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "云片行为认证.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE308334226D577400BD3F1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE308335226D577400BD3F1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AE308337226D577400BD3F1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 		AE308332226D577400BD3F1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE308331226D577400BD3F1D /* YPVerifyDemo.app */,
+				AE308331226D577400BD3F1D /* 云片行为认证.app */,
 				AE308349226D577600BD3F1D /* YPVerifyDemoTests.xctest */,
 				AE308354226D577600BD3F1D /* YPVerifyDemoUITests.xctest */,
 			);
@@ -248,7 +248,7 @@
 			);
 			name = YPVerifyDemo;
 			productName = YPVerifyDemo;
-			productReference = AE308331226D577400BD3F1D /* YPVerifyDemo.app */;
+			productReference = AE308331226D577400BD3F1D /* 云片行为认证.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AE308348226D577600BD3F1D /* YPVerifyDemoTests */ = {
@@ -606,7 +606,7 @@
 					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qipeng.verify.demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "云片行为认证";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -640,7 +640,7 @@
 					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qipeng.verify.demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "云片行为认证";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

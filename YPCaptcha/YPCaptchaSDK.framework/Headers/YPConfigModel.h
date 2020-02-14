@@ -56,6 +56,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign) BOOL showLoadingView;
 
+/**
+ 添加无感验证参数
+*/
+@property (nonatomic, assign) NSString *username;
+
 @end
 
 NS_ASSUME_NONNULL_END
