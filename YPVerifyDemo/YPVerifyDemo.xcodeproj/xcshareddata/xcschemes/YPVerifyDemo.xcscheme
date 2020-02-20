@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE308330226D577400BD3F1D"
-               BuildableName = "YPVerifyDemo.app"
+               BuildableName = "&#x4e91;&#x7247;&#x884c;&#x4e3a;&#x8ba4;&#x8bc1;.app"
                BlueprintName = "YPVerifyDemo"
                ReferencedContainer = "container:YPVerifyDemo.xcodeproj">
             </BuildableReference>
@@ -31,7 +31,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE308330226D577400BD3F1D"
-            BuildableName = "YPVerifyDemo.app"
+            BuildableName = "&#x4e91;&#x7247;&#x884c;&#x4e3a;&#x8ba4;&#x8bc1;.app"
             BlueprintName = "YPVerifyDemo"
             ReferencedContainer = "container:YPVerifyDemo.xcodeproj">
          </BuildableReference>
@@ -74,7 +74,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE308330226D577400BD3F1D"
-            BuildableName = "YPVerifyDemo.app"
+            BuildableName = "&#x4e91;&#x7247;&#x884c;&#x4e3a;&#x8ba4;&#x8bc1;.app"
             BlueprintName = "YPVerifyDemo"
             ReferencedContainer = "container:YPVerifyDemo.xcodeproj">
          </BuildableReference>
@@ -91,7 +91,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE308330226D577400BD3F1D"
-            BuildableName = "YPVerifyDemo.app"
+            BuildableName = "&#x4e91;&#x7247;&#x884c;&#x4e3a;&#x8ba4;&#x8bc1;.app"
             BlueprintName = "YPVerifyDemo"
             ReferencedContainer = "container:YPVerifyDemo.xcodeproj">
          </BuildableReference>
