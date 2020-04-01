@@ -25,7 +25,7 @@
 		AE308359226D577600BD3F1D /* YPVerifyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE308358226D577600BD3F1D /* YPVerifyDemoUITests.m */; };
 		AEA47F1922B8DC05000905E4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC007EF2277FBF0004EED79 /* AdSupport.framework */; };
 		F336216923C72E520055F7E3 /* YPResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F336216823C72E520055F7E3 /* YPResources.bundle */; };
-		F3BEE2312399FE4D0022BAB2 /* YPCaptchaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BEE2302399FE4D0022BAB2 /* YPCaptchaSDK.framework */; };
+		F37B830E243446A300E2E3E6 /* YPCaptchaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37B830D243446A300E2E3E6 /* YPCaptchaSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +81,7 @@
 		AEC01016227EC285004EED79 /* libQPCommonSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libQPCommonSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03F7FAB33CCCE508F64A458 /* Pods-YPVerifyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPVerifyDemo.release.xcconfig"; path = "Target Support Files/Pods-YPVerifyDemo/Pods-YPVerifyDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F336216823C72E520055F7E3 /* YPResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YPResources.bundle; sourceTree = "<group>"; };
-		F3BEE2302399FE4D0022BAB2 /* YPCaptchaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YPCaptchaSDK.framework; sourceTree = "<group>"; };
+		F37B830D243446A300E2E3E6 /* YPCaptchaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YPCaptchaSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 			files = (
 				AEA47F1922B8DC05000905E4 /* AdSupport.framework in Frameworks */,
 				AE087A3622952B980060D4ED /* libGTCommonSDK.a in Frameworks */,
-				F3BEE2312399FE4D0022BAB2 /* YPCaptchaSDK.framework in Frameworks */,
+				F37B830E243446A300E2E3E6 /* YPCaptchaSDK.framework in Frameworks */,
 				AE087A3722952B980060D4ED /* libGTCountSDK.a in Frameworks */,
 				737EBA790A3ADE28AE34566B /* libPods-YPVerifyDemo.a in Frameworks */,
 			);
@@ -201,8 +201,8 @@
 		AE308366226D57FB00BD3F1D /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				F37B830D243446A300E2E3E6 /* YPCaptchaSDK.framework */,
 				F336216823C72E520055F7E3 /* YPResources.bundle */,
-				F3BEE2302399FE4D0022BAB2 /* YPCaptchaSDK.framework */,
 				AE087A3222952B980060D4ED /* GCSDK */,
 				AE06A00822842BEF00CC29EE /* MBProgressHUD */,
 			);
