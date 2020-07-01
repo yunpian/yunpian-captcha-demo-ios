@@ -7,7 +7,7 @@
 
 ## pod方式添加SDK
 ```
-pod 'YPCaptcha','~> 1.0.5'
+pod 'YPCaptcha','~> 1.0.6'
 ```
 ***
 ## API使用说明
